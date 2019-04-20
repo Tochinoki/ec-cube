@@ -173,7 +173,7 @@ class TaxRuleServiceTest extends AbstractServiceTestCase
     {
         $input = 1000;
         $rate = 8;
-        $this->expected = 1080.0;
+        $this->expected = 1100.0;
         $this->actual = $this->taxRuleService->getPriceIncTax($input);
         $this->verify();
     }
